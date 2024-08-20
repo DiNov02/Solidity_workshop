@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.22+commit.4fc1097e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getInfo",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "myInfo",
+						"type": "string"
+					}
+				],
+				"name": "setInfo",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_ethkipu_d.sol": "Register01"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_ethkipu_d.sol": {
+			"keccak256": "0xfedab980939ebcda4124233553a2fcd553e8cfaee897e76fc1171edba0e1e51f",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://dd08246f2ea2594e6727b3b2e247761bc591414263da63cd73744efd03013da6",
+				"dweb:/ipfs/QmTaLchGwz3oxtyyjhn7WRqz1rG4A67Cu1ibwv4A88b8tC"
+			]
+		}
+	},
+	"version": 1
+}
